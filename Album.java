@@ -23,6 +23,7 @@ public class Album {
 	private String titulo;
 	private String autor;
 	private String grupo;
+	private String editorial;
 	private int duracionTotal;
 	private ArrayList<Cancion> trackList;
 
