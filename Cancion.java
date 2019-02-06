@@ -28,6 +28,12 @@ public class Cancion {
 		this.duracion = duracion;
 		this.formato = format; //Con el this, me refiero con this al atributo private siendo ,this.titulo el del objeto y titulo al argumento del constructor
 	}
+	public Cancion(String titulo, String autor, int duracion){
+                this.titulo = titulo;
+                this.autor = autor;
+                this.duracion = duracion;
+                
+	 }
 	
 	public String getTitulo(){
 		return titulo;
